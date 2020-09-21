@@ -1,0 +1,12 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.io.IpinVector EX/MEM_RD 11400 4800 @N 1001 5 00000_B 1.0E-9 0
+hades.models.rtlib.compare.CompareEqual i0 20400 15000 @N 1001 5 U 1.0E-8
+hades.models.rtlib.io.IpinVector ID/EX_RS 11400 10800 @N 1001 5 00001_B 1.0E-9 0
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n0 5 2 ID/EX_RS Y i0 B 2 2 11400 10800 22800 10800 2 22800 10800 22800 15000 0 
+[end signals]
+[end]

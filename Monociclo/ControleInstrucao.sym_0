@@ -1,0 +1,20 @@
+hades.symbols.BboxRectangle  0 0 4800 4800
+hades.symbols.Rectangle  0 0 4800 4800
+hades.symbols.PortLabel 4650 4350 3 ADDRESS
+hades.symbols.PortSymbol 4800 4200 ADDRESS
+hades.symbols.PortLabel 4650 3750 3 FUNCT
+hades.symbols.PortSymbol 4800 3600 FUNCT
+hades.symbols.PortLabel 4650 3150 3 SHAMT
+hades.symbols.PortSymbol 4800 3000 SHAMT
+hades.symbols.PortLabel 4650 2550 3 RD1
+hades.symbols.PortSymbol 4800 2400 RD1
+hades.symbols.PortLabel 4650 1950 3 RT1
+hades.symbols.PortSymbol 4800 1800 RT1
+hades.symbols.PortLabel 4650 1350 3 RS1
+hades.symbols.PortSymbol 4800 1200 RS1
+hades.symbols.PortLabel 4650 750 3 Opcode
+hades.symbols.PortSymbol 4800 600 Opcode
+hades.symbols.PortLabel 150 750 Intru\u00e7\u00e3o
+hades.symbols.PortSymbol 0 600 Intrução
+hades.symbols.InstanceLabel 150 4650 ControleInstrucao
+hades.symbols.ClassLabel 150 450 ControleInstrucao

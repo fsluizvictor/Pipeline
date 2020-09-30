@@ -1,0 +1,20 @@
+hades.symbols.BboxRectangle  0 0 4800 4200
+hades.symbols.Rectangle  0 0 4800 4200
+hades.symbols.PortLabel 4650 1350 3 ID_INSTRUCT
+hades.symbols.PortSymbol 4800 1200 ID_INSTRUCT
+hades.symbols.PortLabel 4650 750 3 ID_PC_\u002b4
+hades.symbols.PortSymbol 4800 600 ID_PC_+4
+hades.symbols.PortLabel 150 3750 IF_FLUSH
+hades.symbols.PortSymbol 0 3600 IF_FLUSH
+hades.symbols.PortLabel 150 3150 IF_INSTRUCT
+hades.symbols.PortSymbol 0 3000 IF_INSTRUCT
+hades.symbols.PortLabel 150 2550 Reset
+hades.symbols.PortSymbol 0 2400 Reset
+hades.symbols.PortLabel 150 1950 IF_PC_\u002b4
+hades.symbols.PortSymbol 0 1800 IF_PC_+4
+hades.symbols.PortLabel 150 1350 Clock
+hades.symbols.PortSymbol 0 1200 Clock
+hades.symbols.PortLabel 150 750 Enable
+hades.symbols.PortSymbol 0 600 Enable
+hades.symbols.InstanceLabel 150 4050 IF-ID
+hades.symbols.ClassLabel 150 450 IF-ID

@@ -1,0 +1,47 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.io.OpinVector i23 45000 17400 @N 1001 16 1.0E-9 0
+hades.models.io.Ipin Reset 8400 4200 @N 1001  U
+hades.models.rtlib.io.OpinVector ID_EX_CTRL1 36000 17400 @N 1001 4 1.0E-9 0
+hades.models.io.Ipin Clock 8400 3000 @N 1001 null U
+hades.models.rtlib.io.IpinVector ID_MEM_CTRL 27600 7200 @N 1001 3 UUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i9 106200 10800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.OpinVector EX_WBCTRL 14400 17400 @N 1001 2 1.0E-9 0
+hades.models.rtlib.io.IpinVector i19 111600 7200 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i8 95400 10800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.IpinVector i18 101400 7200 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i7 83400 10800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.IpinVector i17 89400 7200 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i6 72000 10800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.IpinVector i16 78000 7200 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i5 61200 10800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.IpinVector ID_EX_CTRL 39000 7200 @N 1001 4 UUUU_B 1.0E-9 0
+hades.models.rtlib.io.IpinVector i15 67200 7200 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i4 51000 10800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.IpinVector i14 57000 7200 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i3 41400 10800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.IpinVector i13 47400 7200 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i2 32400 10800 @N 1001 4 UUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i1 21600 10800 @N 1001 3 UUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i0 10800 10800 @N 1001 2 UU_B 1.0E-8
+hades.models.rtlib.io.OpinVector i29 110400 17400 @N 1001 16 1.0E-9 0
+hades.models.rtlib.io.OpinVector i28 100200 17400 @N 1001 16 1.0E-9 0
+hades.models.rtlib.io.OpinVector i27 88800 17400 @N 1001 16 1.0E-9 0
+hades.models.rtlib.io.OpinVector EX_MEM_CTRL 25800 17400 @N 1001 3 1.0E-9 0
+hades.models.rtlib.io.IpinVector ID_WBCTRL 16800 7200 @N 1001 2 UU_B 1.0E-9 0
+hades.models.rtlib.io.OpinVector i26 75600 17400 @N 1001 16 1.0E-9 0
+hades.models.io.Ipin Enable 8400 1800 @N 1001  U
+hades.models.rtlib.io.OpinVector i25 66000 17400 @N 1001 16 1.0E-9 0
+hades.models.rtlib.io.OpinVector i24 54600 17400 @N 1001 16 1.0E-9 0
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n5 4 0 2 2 34200 13200 34200 17400 2 34200 17400 36000 17400 0 
+hades.signals.SignalStdLogicVector n4 4 2 ID_EX_CTRL Y i2 D 4 2 39000 7200 39600 7200 2 39600 7200 39600 9600 2 39600 9600 34200 9600 2 34200 9600 34200 10800 0 
+hades.signals.SignalStdLogicVector n3 3 2 ID_MEM_CTRL Y i1 D 4 2 23400 10800 23400 9600 2 23400 9600 28200 9600 2 28200 9600 28200 7200 2 28200 7200 27600 7200 0 
+hades.signals.SignalStdLogicVector n2 3 2 i1 Q EX_MEM_CTRL A 2 2 25800 17400 23400 17400 2 23400 17400 23400 13200 0 
+hades.signals.SignalStdLogicVector n1 2 2 i0 Q EX_WBCTRL A 2 2 12600 13200 12600 17400 2 12600 17400 14400 17400 0 
+hades.signals.SignalStdLogicVector n0 2 2 ID_WBCTRL Y i0 D 4 2 16800 7200 17400 7200 2 17400 7200 17400 9600 2 17400 9600 12600 9600 2 12600 9600 12600 10800 0 
+[end signals]
+[end]

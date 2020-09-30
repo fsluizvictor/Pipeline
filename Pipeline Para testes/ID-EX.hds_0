@@ -1,0 +1,21 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.register.RegRE i8 95400 11400 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.io.Ipin Clock 8400 3000 @N 1001  U
+hades.models.rtlib.register.RegRE i7 84000 11400 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i6 72000 10800 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i5 61200 11400 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i4 51000 11400 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i3 41400 10800 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i2 32400 10800 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i1 21600 10800 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.io.Ipin Reset 8400 4200 @N 1001 null U
+hades.models.rtlib.register.RegRE i0 10800 10800 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.io.Ipin Enable 8400 1800 @N 1001 null U
+hades.models.rtlib.register.RegRE i9 107400 11400 @N 1001 16 UUUUUUUUUUUUUUUU_B 1.0E-8
+[end components]
+[signals]
+[end signals]
+[end]

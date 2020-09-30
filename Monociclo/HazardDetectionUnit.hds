@@ -1,0 +1,25 @@
+# hades.models.Design file
+#  
+[name] HazardDetectionUnit
+[components]
+hades.models.rtlib.compare.CompareEqual i4 25200 13800 @N 1001 5 1 1.0E-8
+hades.models.io.Ipin ID/EX_MemRead 7800 3000 @N 1001 null U
+hades.models.rtlib.compare.CompareEqual i2 19800 13800 @N 1001 5 X 1.0E-8
+hades.models.gates.Or2 i1 33600 16200 @N 1001 1.0E-8
+hades.models.gates.And2 i0 46200 7200 @N 1001 1.0E-8
+hades.models.rtlib.io.IpinVector ID/EX_Register_Rt 14400 5400 @N 1001 5 00001_B 1.0E-9 0
+hades.models.rtlib.io.IpinVector IF/ID_RegisterRs 14400 8400 @N 1001 5 00001_B 1.0E-9 0
+hades.models.rtlib.io.IpinVector ID/EX_RegisterRt 14400 11400 @N 1001 5 UUUUU_B 1.0E-9 0
+hades.models.io.Opin Stall_the_pipeline 51000 11400 @N 1001 5.0E-9
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n7 2 i0 Y Stall_the_pipeline A 3 2 51000 11400 50400 11400 2 50400 11400 50400 8400 2 50400 8400 49800 8400 0 
+hades.signals.SignalStdLogic1164 n6 2 i1 Y i0 B 3 2 46200 9000 44400 9000 2 44400 9000 44400 17400 2 44400 17400 37200 17400 0 
+hades.signals.SignalStdLogic1164 n5 2 i2 Y i1 B 2 2 21600 15600 21600 18000 2 21600 18000 33600 18000 0 
+hades.signals.SignalStdLogic1164 n4 2 i4 Y i1 A 2 2 27000 15600 27000 16800 2 27000 16800 33600 16800 0 
+hades.signals.SignalStdLogicVector n3 5 2 ID/EX_RegisterRt Y i2 A 2 2 14400 11400 21000 11400 2 21000 11400 21000 13800 0 
+hades.signals.SignalStdLogicVector n2 5 3 IF/ID_RegisterRs Y i4 A i2 B 4 2 26400 13800 26400 8400 2 26400 8400 22200 8400 2 14400 8400 22200 8400 2 22200 8400 22200 13800 1 22200 8400 
+hades.signals.SignalStdLogicVector n1 5 2 ID/EX_Register_Rt Y i4 B 2 2 27600 13800 27600 5400 2 27600 5400 14400 5400 0 
+hades.signals.SignalStdLogic1164 n0 2 ID/EX_MemRead Y i0 A 3 2 7800 3000 44400 3000 2 44400 3000 44400 7800 2 44400 7800 46200 7800 0 
+[end signals]
+[end]

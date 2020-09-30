@@ -2,41 +2,40 @@
 #  
 [name] unnamed
 [components]
+hades.models.Design Controle_Principal 40800 13800 @N 1001 ControlePrincipal.hds
 hades.models.io.Gnd i20 75600 31800 @N 1001
-hades.models.Design Jump 90600 3600 @N 1001 Jump.hds
-hades.models.rtlib.io.Subset i9 90000 37200 @N 1001 32 9 0 0000000000_B 1.0E-8
-hades.models.rtlib.muxes.Mux21 i8 70200 37200 @N 1001 32 00000000000000000000000000000000_B 1.0E-8
-hades.models.rtlib.memory.RAM i7 99000 36000 @N 1001 1024 32 Monociclo.hds
-hades.models.gates.And2 i6 48000 7800 @N 1001 1.0E-8
-hades.models.Design HazardDetectionUnit 34200 -1200 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo/HazardDetectionUnit.hds
-hades.models.rtlib.muxes.Mux21 i5 55200 7800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
-hades.models.rtlib.register.RegR PC 4800 7200 @N 1001 32 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX_B 1.0E-8
-hades.models.rtlib.arith.ShiftLeft i4 66600 5400 @N 1001 32 2 00000000000000000000000011010000_B 1.0E-8
-hades.models.rtlib.memory.MipsRegBank i3 39600 31800 @N 1001 32 32 Monociclo.hds
-hades.models.rtlib.arith.ShiftRightArith i2 12600 9000 @N 1001 32 2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX_B 1.0E-8
-hades.models.rtlib.memory.ROM i1 17400 13200 @N 1001 1024 32 CasoTeste.rom
-hades.models.io.ClockGen i0 -600 7200 @N 1001 1.0 0.5 0.0 null
-hades.models.rtlib.io.OpinVector i19 72600 28200 @N 1001 4 1.0E-9 0
-hades.models.microjava.ALU i18 78000 33000 @N 1001 32 1.0E-8 16 15 16 9 0 0 0 12 12 0 0 0 0 0 0 0 0
-hades.models.io.Gnd i17 93600 34200 @N 1001
-hades.models.gates.InvSmall i16 6000 12600 @N 1001 5.0E-9
-hades.models.gates.Nand2 i15 61200 19200 @N 1001 1.0E-8
-hades.models.gates.Nand2 i14 61200 15600 @N 1001 1.0E-8
-hades.models.rtlib.muxes.Mux21 i13 96600 9000 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
-hades.models.io.Gnd i12 37200 28200 @N 1001
-hades.models.rtlib.muxes.Mux21 i11 101400 53400 @N 1001 32 00000000000000000000000000000000_B 1.0E-8
-hades.models.rtlib.muxes.Mux21 i10 101400 47400 @N 1001 32 00000000000000000000000000000000_B 1.0E-8
-hades.models.Design ControleULA 59400 33600 @N 1001 ControleUla.hds
-hades.models.Design Extens\u00e3o_de_Sinal1 32400 39000 @N 1001 ExtensaoSinal.hds
-hades.models.rtlib.muxes.Mux21 MUX1 28800 28800 @N 1001 5 00000_B 1.0E-8
-hades.models.rtlib.io.Subset Subset 12600 11400 @N 1001 32 9 0 XXXXXXXXXX_B 1.0E-8
 hades.models.rtlib.io.Constant Constante4 18000 -600 @N 1001 32 00000000000000000000000000000100_B 1.0E-8
+hades.models.rtlib.io.Subset Subset 12600 11400 @N 1001 32 9 0 0000000110_B 1.0E-8
+hades.models.Design Extens\u00e3o_de_Sinal1 32400 39000 @N 1001 ExtensaoSinal.hds
+hades.models.rtlib.muxes.Mux21 MUX1 28800 28800 @N 1001 5 01110_B 1.0E-8
+hades.models.Design ControleULA 59400 33600 @N 1001 ControleUla.hds
+hades.models.Design Jump 90600 3600 @N 1001 Jump.hds
+hades.models.rtlib.io.Subset i9 90000 37200 @N 1001 32 9 0 0000000010_B 1.0E-8
+hades.models.rtlib.io.OpinVector i19 72600 28200 @N 1001 4 1.0E-9 0
+hades.models.rtlib.muxes.Mux21 i8 70200 37200 @N 1001 32 00000000000000000000000000000010_B 1.0E-8
+hades.models.microjava.ALU i18 78000 33000 @N 1001 32 1.0E-8 16 15 16 9 0 0 0 12 12 0 0 0 0 0 0 0 0
+hades.models.rtlib.memory.RAM i7 99000 36000 @N 1001 1024 32 Monociclo.hds
+hades.models.io.Gnd i17 93600 34200 @N 1001
+hades.models.gates.And2 i6 48000 7800 @N 1001 1.0E-8
+hades.models.gates.InvSmall i16 6000 12600 @N 1001 5.0E-9
+hades.models.rtlib.muxes.Mux21 i5 55200 7800 @N 1001 32 00000000000000000000000000011100_B 1.0E-8
+hades.models.rtlib.arith.ShiftLeft i4 66600 5400 @N 1001 32 2 00000000000000011100000010101000_B 1.0E-8
+hades.models.gates.Nand2 i15 61200 19200 @N 1001 1.0E-8
+hades.models.rtlib.arith.Add ULA_result 54600 0 @N 1001 32 00000000000000011100000011000100_B 1.0E-8
+hades.models.rtlib.memory.MipsRegBank i3 39600 31800 @N 1001 32 32 Monociclo.hds
+hades.models.gates.Nand2 i14 61200 15600 @N 1001 1.0E-8
+hades.models.rtlib.arith.ShiftRightArith i2 12600 9000 @N 1001 32 2 00000000000000000000000000000110_B 1.0E-8
+hades.models.rtlib.muxes.Mux21 i13 96600 9000 @N 1001 32 00000000000000000000000000011100_B 1.0E-8
+hades.models.rtlib.memory.ROM i1 17400 13200 @N 1001 1024 32 CasoTeste.rom
+hades.models.io.Gnd i12 37200 28200 @N 1001
+hades.models.io.ClockGen i0 -600 7200 @N 1001 1.0 0.5 0.0 null
+hades.models.rtlib.muxes.Mux21 i11 101400 53400 @N 1001 32 00000000000000000000000000000001_B 1.0E-8
+hades.models.rtlib.muxes.Mux21 i10 101400 47400 @N 1001 32 00000000000000000000000000000010_B 1.0E-8
+hades.models.rtlib.register.RegR PC 4800 7200 @N 1001 32 00000000000000000000000000011000_B 1.0E-8
+hades.models.rtlib.arith.Add Adiciona 16200 3600 @N 1001 32 00000000000000000000000000011100_B 1.0E-8
 hades.models.Design ControleInstrucao 22800 20400 @N 1001 ControleInstrucao.hds
 hades.models.io.Ipin Enable 1800 12000 @N 1001  U
 hades.models.Design SLT 86400 52800 @N 1001 SLT.hds
-hades.models.rtlib.arith.Add ULA_result 54600 0 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
-hades.models.Design Controle_Principal 40800 13800 @N 1001 ControlePrincipal.hds
-hades.models.rtlib.arith.Add Adiciona 16200 3600 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
 [end components]
 [signals]
 hades.signals.SignalStdLogicVector n39 26 2 ControleInstrucao JUMP Jump Imediato 3 2 27600 25200 78000 25200 2 78000 25200 78000 4800 2 78000 4800 90600 4800 0 
@@ -70,8 +69,8 @@ hades.signals.SignalStdLogicVector n1 32 2 i1 D ControleInstrucao Intrução 2 2
 hades.signals.SignalStdLogicVector n0 32 2 i2 Y Subset A 1 2 12600 10800 12600 11400 0 
 hades.signals.SignalStdLogicVector n19 2 2 Controle_Principal OpAlu1 ControleULA OpAlu 3 2 45600 19800 54600 19800 2 54600 19800 54600 34200 2 54600 34200 59400 34200 0 
 hades.signals.SignalStdLogic1164 n18 2 Controle_Principal Branch i6 B 3 2 45600 18000 46800 18000 2 46800 18000 46800 9600 2 46800 9600 48000 9600 0 
-hades.signals.SignalStdLogic1164 n17 2 i6 Y i5 S 1 2 51600 9000 55200 9000 0 
 hades.signals.SignalStdLogicVector n49 6 3 ControleInstrucao FUNCT ControleULA Function SLT Funct 10 2 59400 34800 54600 34800 2 54600 34800 54600 38400 2 54600 38400 26400 38400 2 86400 55200 27000 55200 2 27000 55200 26400 55200 2 26400 55200 26400 38400 2 27600 24000 29400 24000 2 29400 24000 29400 28200 2 29400 28200 26400 28200 2 26400 28200 26400 38400 1 26400 38400 
+hades.signals.SignalStdLogic1164 n17 2 i6 Y i5 S 1 2 51600 9000 55200 9000 0 
 hades.signals.SignalStdLogicVector n16 32 2 Jump Jump i13 A1 2 2 95400 4200 97800 4200 2 97800 4200 97800 9000 0 
 hades.signals.SignalStdLogic1164 n48 2 Controle_Principal Jump1 i13 S 3 2 45600 18600 94200 18600 2 94200 18600 94200 10200 2 94200 10200 96600 10200 0 
 hades.signals.SignalStdLogic1164 n15 2 SLT ControleMux i11 S 3 2 91200 54000 100200 54000 2 100200 54000 100200 54600 2 100200 54600 101400 54600 0 

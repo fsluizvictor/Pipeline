@@ -1,0 +1,36 @@
+# hades.models.Design file
+#  
+[name] MEM-WB
+[components]
+hades.models.rtlib.io.IpinVector EX_WB_CTRL 26400 -9000 @N 1001 2 UU_B 1.0E-9 0
+hades.models.io.Ipin Reset 16800 -15000 @N 1001  U
+hades.models.io.Ipin Clock 16800 -16200 @N 1001 null U
+hades.models.rtlib.io.OpinVector MEM_WB_CTRL 28800 -600 @N 1001 2 1.0E-9 0
+hades.models.rtlib.io.OpinVector MEM_ALU_RESULT 78600 -600 @N 1001 32 1.0E-9 0
+hades.models.rtlib.io.IpinVector EX_RT_ED 95400 -8400 @N 1001 5 UUUUU_B 1.0E-9 0
+hades.models.rtlib.register.RegRE i4 100200 -5400 @N 1001 5 UUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i3 74400 -5400 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.register.RegRE i2 56400 -5400 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.rtlib.io.OpinVector MEM_RT_RD 108600 -600 @N 1001 5 1.0E-9 0
+hades.models.rtlib.register.RegRE i0 25800 -5400 @N 1001 2 UU_B 1.0E-8
+hades.models.rtlib.io.IpinVector EX_ALU_RESULT 73800 -8400 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.io.OpinVector MEM_MEM_CTRL 44400 -600 @N 1001 3 1.0E-9 0
+hades.models.rtlib.io.IpinVector EX_MEM_CTRL 41400 -8400 @N 1001 3 UUU_B 1.0E-9 0
+hades.models.io.Ipin Enable 16800 -17400 @N 1001 null U
+hades.models.rtlib.io.IpinVector EX_RD_2 56400 -8400 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-9 0
+hades.models.rtlib.io.OpinVector MEM_RD_2 60000 -600 @N 1001 32 1.0E-9 0
+hades.models.rtlib.register.RegRE  40800 -5400 @N 1001 3 UUU_B 1.0E-8
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n9 5 2 i4 Q MEM_RT_RD A 2 2 102000 -3000 102000 -600 2 102000 -600 108600 -600 0 
+hades.signals.SignalStdLogicVector n8 5 2 EX_RT_ED Y i4 D 2 2 95400 -8400 102000 -8400 2 102000 -8400 102000 -5400 0 
+hades.signals.SignalStdLogicVector n7 32 0 2 2 76200 -3000 76200 -600 2 76200 -600 78600 -600 0 
+hades.signals.SignalStdLogicVector n6 32 2 EX_ALU_RESULT Y i3 D 2 2 73800 -8400 76200 -8400 2 76200 -8400 76200 -5400 0 
+hades.signals.SignalStdLogicVector n5 32 2 i2 Q MEM_RD_2 A 2 2 58200 -3000 58200 -600 2 58200 -600 60000 -600 0 
+hades.signals.SignalStdLogicVector n4 32 2 EX_RD_2 Y i2 D 2 2 56400 -8400 58200 -8400 2 58200 -8400 58200 -5400 0 
+hades.signals.SignalStdLogicVector n3 3 2  Q MEM_MEM_CTRL A 2 2 42600 -3000 42600 -600 2 42600 -600 44400 -600 0 
+hades.signals.SignalStdLogicVector n2 3 2 EX_MEM_CTRL Y  D 2 2 41400 -8400 42600 -8400 2 42600 -8400 42600 -5400 0 
+hades.signals.SignalStdLogicVector n1 2 2 i0 Q MEM_WB_CTRL A 2 2 27600 -3000 27600 -600 2 27600 -600 28800 -600 0 
+hades.signals.SignalStdLogicVector n0 2 2 EX_WB_CTRL Y i0 D 2 2 26400 -9000 27600 -9000 2 27600 -9000 27600 -5400 0 
+[end signals]
+[end]

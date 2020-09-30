@@ -2,23 +2,27 @@
 #  
 [name] unnamed
 [components]
+hades.models.Design IF-ID 6600 25800 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/IF-ID.hds
 hades.models.io.Gnd i20 75600 31800 @N 1001
 hades.models.Design Jump 90600 3600 @N 1001 Jump.hds
+hades.models.Design unnamed 29400 46800 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/ForwardingUnit/ForwardingUnit_EX_MEM.hds
 hades.models.rtlib.io.Subset i9 90000 37200 @N 1001 32 9 0 0000000000_B 1.0E-8
 hades.models.rtlib.muxes.Mux21 i8 70200 37200 @N 1001 32 00000000000000000000000000000000_B 1.0E-8
 hades.models.rtlib.memory.RAM i7 99000 36000 @N 1001 1024 32 Monociclo.hds
 hades.models.gates.And2 i6 48000 7800 @N 1001 1.0E-8
+hades.models.Design MEM-WB -11400 37200 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/MEM-WB.hds
 hades.models.Design HazardDetectionUnit 34200 -1200 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo/HazardDetectionUnit.hds
 hades.models.rtlib.muxes.Mux21 i5 55200 7800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
 hades.models.rtlib.register.RegR PC 4800 7200 @N 1001 32 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX_B 1.0E-8
 hades.models.rtlib.arith.ShiftLeft i4 66600 5400 @N 1001 32 2 00000000000000000000000011010000_B 1.0E-8
 hades.models.rtlib.memory.MipsRegBank i3 39600 31800 @N 1001 32 32 Monociclo.hds
 hades.models.rtlib.arith.ShiftRightArith i2 12600 9000 @N 1001 32 2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX_B 1.0E-8
-hades.models.rtlib.memory.ROM i1 17400 13200 @N 1001 1024 32 CasoTeste.rom
+hades.models.rtlib.memory.ROM i1 4800 18000 @N 1001 1024 32 CasoTeste.rom
 hades.models.io.ClockGen i0 -600 7200 @N 1001 1.0 0.5 0.0 null
 hades.models.rtlib.io.OpinVector i19 72600 28200 @N 1001 4 1.0E-9 0
 hades.models.microjava.ALU i18 78000 33000 @N 1001 32 1.0E-8 16 15 16 9 0 0 0 12 12 0 0 0 0 0 0 0 0
 hades.models.io.Gnd i17 93600 34200 @N 1001
+hades.models.Design ID-EX -12000 26400 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/ID-EX.hds
 hades.models.gates.InvSmall i16 6000 12600 @N 1001 5.0E-9
 hades.models.gates.Nand2 i15 61200 19200 @N 1001 1.0E-8
 hades.models.gates.Nand2 i14 61200 15600 @N 1001 1.0E-8
@@ -34,6 +38,7 @@ hades.models.rtlib.io.Constant Constante4 18000 -600 @N 1001 32 0000000000000000
 hades.models.Design ControleInstrucao 22800 20400 @N 1001 ControleInstrucao.hds
 hades.models.io.Ipin Enable 1800 12000 @N 1001  U
 hades.models.Design SLT 86400 52800 @N 1001 SLT.hds
+hades.models.Design EX-MEM -10800 44400 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/EX-MEM.hds
 hades.models.rtlib.arith.Add ULA_result 54600 0 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
 hades.models.Design Controle_Principal 40800 13800 @N 1001 ControlePrincipal.hds
 hades.models.rtlib.arith.Add Adiciona 16200 3600 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
@@ -61,12 +66,11 @@ hades.signals.SignalStdLogicVector n21 32 2 SLT SLT i11 A1 4 2 91200 53400 10020
 hades.signals.SignalStdLogicVector n20 4 3 ControleULA Operacao i19 A i18 OPC 4 2 72600 28200 72000 28200 2 72000 28200 72000 34200 2 64200 34200 72000 34200 2 78000 34200 72000 34200 1 72000 34200 
 hades.signals.SignalStdLogicVector n9 5 2 MUX1 Y i3 AW0 3 2 30600 30600 30600 33600 2 30600 33600 30600 34200 2 30600 34200 39600 34200 0 
 hades.signals.SignalStdLogicVector n8 5 2 ControleInstrucao RS1 i3 AR0 3 2 27600 21600 36000 21600 2 36000 21600 36000 34800 2 36000 34800 39600 34800 0 
-hades.signals.SignalStdLogicVector n6 10 2 Subset Y i1 A 2 2 17400 15600 12600 15600 2 12600 15600 12600 12000 0 
 hades.signals.SignalStdLogic1164 n5 2 Enable Y PC NR 3 2 4800 9000 3000 9000 2 3000 9000 3000 12000 2 3000 12000 1800 12000 0 
 hades.signals.SignalStdLogic1164 n4 2 i14 Y i3 nWE 5 2 64800 16800 68400 16800 2 68400 16800 68400 30000 2 68400 30000 37800 30000 2 37800 30000 37800 33600 2 37800 33600 39600 33600 0 
 hades.signals.SignalStdLogicVector n3 32 2 ULA_result SUM i5 A1 3 2 57000 2400 57000 6000 2 57000 6000 56400 6000 2 56400 6000 56400 7800 0 
 hades.signals.SignalStdLogicVector n2 32 2 Constante4 Y Adiciona B 1 2 19800 1200 19800 3600 0 
-hades.signals.SignalStdLogicVector n1 32 2 i1 D ControleInstrucao Intrução 2 2 21000 18000 21000 21000 2 21000 21000 22800 21000 0 
+hades.signals.SignalStdLogicVector n1 10 2 Subset Y i1 A 4 2 12600 12000 12600 16200 2 12600 16200 3000 16200 2 3000 16200 3000 20400 2 3000 20400 4800 20400 0 
 hades.signals.SignalStdLogicVector n0 32 2 i2 Y Subset A 1 2 12600 10800 12600 11400 0 
 hades.signals.SignalStdLogicVector n19 2 2 Controle_Principal OpAlu1 ControleULA OpAlu 3 2 45600 19800 54600 19800 2 54600 19800 54600 34200 2 54600 34200 59400 34200 0 
 hades.signals.SignalStdLogic1164 n18 2 Controle_Principal Branch i6 B 3 2 45600 18000 46800 18000 2 46800 18000 46800 9600 2 46800 9600 48000 9600 0 

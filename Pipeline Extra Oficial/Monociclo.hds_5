@@ -2,12 +2,15 @@
 #  
 [name] unnamed
 [components]
+hades.models.Design IF-ID -11400 21000 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/IF-ID.hds
 hades.models.io.Gnd i20 75600 31800 @N 1001
 hades.models.Design Jump 90600 3600 @N 1001 Jump.hds
+hades.models.Design unnamed 29400 46800 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/ForwardingUnit/ForwardingUnit_EX_MEM.hds
 hades.models.rtlib.io.Subset i9 90000 37200 @N 1001 32 9 0 0000000000_B 1.0E-8
 hades.models.rtlib.muxes.Mux21 i8 70200 37200 @N 1001 32 00000000000000000000000000000000_B 1.0E-8
 hades.models.rtlib.memory.RAM i7 99000 36000 @N 1001 1024 32 Monociclo.hds
 hades.models.gates.And2 i6 48000 7800 @N 1001 1.0E-8
+hades.models.Design MEM-WB -11400 37200 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/MEM-WB.hds
 hades.models.Design HazardDetectionUnit 34200 -1200 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo/HazardDetectionUnit.hds
 hades.models.rtlib.muxes.Mux21 i5 55200 7800 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
 hades.models.rtlib.register.RegR PC 4800 7200 @N 1001 32 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX_B 1.0E-8
@@ -19,6 +22,7 @@ hades.models.io.ClockGen i0 -600 7200 @N 1001 1.0 0.5 0.0 null
 hades.models.rtlib.io.OpinVector i19 72600 28200 @N 1001 4 1.0E-9 0
 hades.models.microjava.ALU i18 78000 33000 @N 1001 32 1.0E-8 16 15 16 9 0 0 0 12 12 0 0 0 0 0 0 0 0
 hades.models.io.Gnd i17 93600 34200 @N 1001
+hades.models.Design ID-EX -12000 26400 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/ID-EX.hds
 hades.models.gates.InvSmall i16 6000 12600 @N 1001 5.0E-9
 hades.models.gates.Nand2 i15 61200 19200 @N 1001 1.0E-8
 hades.models.gates.Nand2 i14 61200 15600 @N 1001 1.0E-8
@@ -34,6 +38,7 @@ hades.models.rtlib.io.Constant Constante4 18000 -600 @N 1001 32 0000000000000000
 hades.models.Design ControleInstrucao 22800 20400 @N 1001 ControleInstrucao.hds
 hades.models.io.Ipin Enable 1800 12000 @N 1001  U
 hades.models.Design SLT 86400 52800 @N 1001 SLT.hds
+hades.models.Design EX-MEM -10800 44400 @N 1001 /home/luiz_victor/Documentos/Engenharia\u0020de\u0020Computa\u00e7\u00e3o/Periodos/Quinto\u0020Periodo\u0020ERE/AOC\u00202/LAOC\u00202/Monociclo\u0020para\u0020Testes/EX-MEM.hds
 hades.models.rtlib.arith.Add ULA_result 54600 0 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
 hades.models.Design Controle_Principal 40800 13800 @N 1001 ControlePrincipal.hds
 hades.models.rtlib.arith.Add Adiciona 16200 3600 @N 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
